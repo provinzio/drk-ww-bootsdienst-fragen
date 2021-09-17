@@ -10,11 +10,15 @@ from xml.sax.saxutils import escape
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 
+# Filter constants
+IGNORE_REGIONAL = True
+
+# Output constants
 CREATE_RANDOMIZED_TXT = False
 SAVE_QUESTIONS_FOR_SAILTRAINER = False
 
+# Quiz constants
 START_QUIZ = True
-IGNORE_REGIONAL = True
 QUIZ_STATISIC_WIDTH = 50
 QUIZ_SAVE_FILE = "quiz_save.cfg"
 

@@ -55,11 +55,19 @@ class Question:
         self.false_guess = 0
 
     @property
-    def weight(self) -> float:
-        weight = max(1, self.correct_guess - self.false_guess)
+    def weight(self) -> int:
+        weight = max(-1, self.correct_guess - self.false_guess)
         if weight > 5:
             return 0
-        return 5 / weight
+        return {
+            -1: 10,
+            0: 8,
+            1: 7,
+            2: 5,
+            3: 4,
+            4: 2,
+            5: 1,
+        }[weight]
 
     @property
     def level(self) -> int:

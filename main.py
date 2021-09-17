@@ -233,16 +233,22 @@ def ask_question(question: Question) -> Optional[bool]:
     for answer_idx, shuffled_answer_idx in zip(answer_idxs, shuffled_answer_idxs):
         print(f"{answer_idx+1}. {question.answers[shuffled_answer_idx]}")
 
+    print("Antwort: 1-4, Beenden: q, ID ausgeben: i")
+
     first_try_correct = True
 
     while True:
         try:
-            input_ = input("Antwort (beenden mit q): ")
+            input_ = input("Eingabe: ")
         except KeyboardInterrupt:
             return None
 
         if input_ in ("q", "quit"):
             return None
+
+        if input_ in ("i", "id"):
+            print(f"Die Id lautet {question.identifier}.")
+            continue
 
         try:
             input_idx = int(input_) - 1
@@ -266,9 +272,6 @@ def ask_question(question: Question) -> Optional[bool]:
 
 
 def print_quiz_statistic(questions: list[Question]) -> None:
-    print()
-    print()
-
     n = len(questions)
     question_levels = [q.level for q in questions]
     statistic = collections.Counter(question_levels)
@@ -280,10 +283,14 @@ def print_quiz_statistic(questions: list[Question]) -> None:
         bar = width * "#" + spaces * " "
         print(f"Level {level:3}: {count:4} / {n} |{bar}|")
 
+    print(
+        "Das Level bestimmt sich je Frage "
+        "durch die Anzahl der richtigen Antworten "
+        "minus die Anzahl der falschen Antworten."
+    )
+
 
 if START_QUIZ:
-    # root = tk.Tk()
-
     all_questions = list(itertools.chain(*topics.values()))
 
     # Letzten Stand aus Speicherdatei einlesen.
@@ -302,6 +309,8 @@ if START_QUIZ:
                 ), f"Identifier nicht identisch {question.identifier} != {identifier}"
                 question.correct_guess = correct_guess
                 question.false_guess = false_guess
+        print("Dein Fortschritt wurde geladen...")
+        print_quiz_statistic(all_questions)
 
     while True:
         # Wähle eine Frage zufällig aus.
@@ -329,9 +338,12 @@ if START_QUIZ:
 
         plt.close("all")
 
+    print("\n\n")
+
     # Stand in Speicherdatei sichern.
     save_point = [(q.identifier, q.correct_guess, q.false_guess) for q in all_questions]
     with open(QUIZ_SAVE_FILE, "wb") as fp:
         pickle.dump(save_point, fp)
+    print("Dein Fortschritt wurde gespeichert.")
 
     print_quiz_statistic(all_questions)

@@ -1,7 +1,8 @@
 Skript zum Verarbeiten und Lernen der Wasserwacht Bootsdienst Fragen.
 
 ## Voraussetzungen
-Es wird Python >= 3.6 empfohlen.
+
+Python >= 3.8
 
 ```
 pip install matplotlib

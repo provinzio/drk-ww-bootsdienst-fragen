@@ -1854,7 +1854,7 @@ Notbremsung) weder ihren Verstauort verlassen noch sonstigen Schaden anrichten. 
 □ A Im Elektronischer Wasserstraßen-Informationsservice unter www.elwis.de
 □ B Im Länderübergreifenden Hochwasserportal unter www.hochwasserzentralen.de
 □ C Bei der Unwetterzentrale unter www.unwetterzentrale.de
-□ D Die "Nachrichten für die Binnenschifffahrt" werden nicht im Internet veröffentlicht.BILD FEHLT
+□ D Die "Nachrichten für die Binnenschifffahrt" werden nicht im Internet veröffentlicht.
 319 (18) Wie ist ein Boot auf Binnenschifffahrtsstraßen zu kennzeichnen, von dem aus ein Taucheinsatz durchgeführt wird?
 □ A Es ist die Flagge -A- des internationalen Signalbuchs (blau/weißer Doppelstander) zu setzen. Bei Nacht ist diese anzustrahlen. Zusätzlich kann eine rot/weiße Flagge oder Tafel bzw. die entsprechende Beleuchtung auf der freien Seite gesetzt werden.
 □ B Es ist die Flagge -A- (blau/weißer Doppelstander) zu setzen. Ein Anstrahlen bei Nacht ist nicht notwendig.
@@ -2069,7 +2069,7 @@ eine rot/weiße Flagge oder Tafel bzw. die entsprechenden Rundumlichter
 □ A Im Zeitraum vom 01. 03. bis 30.11. des Jahres und Montag bis Freitag: 09:00 - 20:00 Uhr sowie samstags, sonntags und an gesetzlichen Feiertagen: 09:00-12:30 Uhr und 14:30-20:00 Uhr.
 □ B Im Zeitraum vom 01. 06. bis 31.8. des Jahres in der Zeit von Sonnenuntergang bis Sonnenaufgang .
 □ C Im Zeitraum vom 01.10. bis 31.3. des Jahres in der Zeit von Sonnenaufgang bis Sonnenuntergang.
-□ D Es bestehen keine Beschränkungen des Zeitraumes.BILD FEHLT
+□ D Es bestehen keine Beschränkungen des Zeitraumes.
 361 (4) Welche Geschwindigkeitsbeschränkungen bestehen auf der Bleilochtalsperre?
 □ A Grundsätzlich gilt eine Höchstgeschwindigkeiten von 12 km/h. Beim An- und Ablegen an Landestellen, bei Bojen in Bojenfeldern und innerhalb von Bojenfeldern gilt eine Höchstgeschwindigkeiten von 5 km/h.
 □ B Die Höchstgeschwindigkeiten beträgt generell 40km/h.

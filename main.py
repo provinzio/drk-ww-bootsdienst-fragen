@@ -60,9 +60,9 @@ class Question:
         if weight > 5:
             return 0
         return {
-            -1: 11,
+            -1: 15,
             0: 10,
-            1: 11,
+            1: 12,
             2: 8,
             3: 7,
             4: 5,

@@ -14,10 +14,9 @@
 □ B Die Regelungen der Dienstvorschrift Wasserretter, der DGUV Regel 105-002 und der APV Bootsdienst.
 □ C Ausschnittsweise die Regelungen der Dienstbekleidungsvorschrift (PSA für den Bootsdienst) und der Dienstvorschriften für den Katastrophenschutz.
 □ D Ausschließlich die Regelungen der APV Bootsdienst.
-4 (4) Welche Bestimmungen - außer den schifffahrtsrechtlichen- finden im Bootsdienst der Wasserwacht Anwendung?
+4 (4) Welche Bestimmungen - außer den schifffahrtsrechtlichen - finden im Bootsdienst der Wasserwacht Anwendung?
 □ A Die Ordnungen und Vorschriften der Wasserwacht, die Rettungsdienst- und Katastrophenschutzgesetze der Länder sowie die Regelungen und Vorschriften der Unfallversicherungsträger zu Unfallverhütung und Arbeitsschutz.
-□ B Die Regelungen und Vorschriften für die Wasserrettung der Feuerwehren, die Rettungsdienst- und
-Katastrophenschutzgesetze der Länder sowie die Regelungen und Vorschriften der Unfallversicherungsträger zu Unfallverhütung und Arbeitsschutz.
+□ B Die Regelungen und Vorschriften für die Wasserrettung der Feuerwehren, die Rettungsdienst- und Katastrophenschutzgesetze der Länder sowie die Regelungen und Vorschriften der Unfallversicherungsträger zu Unfallverhütung und Arbeitsschutz.
 □ C Ausschließlich die Ordnungen und Vorschriften der Wasserwacht.
 □ D Die Ordnungen und Vorschriften der Wasserwacht und die Rettungsdienst- und Katastrophenschutzgesetze der Länder.
 5 (5) Wie viele Besatzungsmitglieder und mit welcher Qualifikation müssen bei Inbetriebnahme eines MRB mindestens an Bord sein?
@@ -62,8 +61,7 @@ Katastrophenschutzgesetze der Länder sowie die Regelungen und Vorschriften der 
 □ D Am Motorrettungsboot ist ein technischer Dienst durchzuführen.
 13 (13) Wem ist das Führen von Motorrettungsbooten der Wasserwacht gestattet?
 □ A Inhabern eines gültigen Dienstführerscheins zum Führen von Motorrettungsbooten für den jeweiligen Geltungsbereich.
-□ B Inhabern eines gültigen Dienstführerscheins zum Führen von Motorrettungsbooten unabhängig vom jeweiligen
-Geltungsbereich.
+□ B Inhabern eines gültigen Dienstführerscheins zum Führen von Motorrettungsbooten unabhängig vom jeweiligen Geltungsbereich.
 □ C Inhabern eines amtlichen Sportbootführerscheins unabhängig vom jeweiligen Geltungsbereich.
 □ D Inhabern eines amtlichen Sportbootführerscheins für den jeweiligen Geltungsbereich.
 14 (14) Wer ordnet nach der DV Wasserwacht in der Regel die Inbetriebnahme eines Motorrettungsboots an?
@@ -529,7 +527,7 @@ BILD FEHLT
 95 (19) Welche Besonderheiten und Risiken sind beim Übernehmen einer verunglückten Person aus dem Wasser in das Rettungsboot zu beachten?
 □ A Verstärkung des Schockzustandes beim senkrechten Retten aus dem Wasser und Gefahr des Bergungstodes; allgemeine Verletzungsgefahr und Gefährdung der Wirbelsäule am Bootsrand; Verletzungsgefahr für die Besatzung.
 □ B Gefahr eines Hängetraumas; große Boote können beim Anbordnehmen der Person kentern
-□ C Die Funktion des Bugklappe kann durch die Benutzung für eine Rettung geschädigt werden
+□ C Die Funktion der Bugklappe kann durch die Benutzung für eine Rettung geschädigt werden
 □ D Keine Risiken, die Patienten kommen stets selbst in das Rettungsboot
 96 (20) Wovon kann für Personen, die sich während des Rettungseinsatzes in der Nähe des Rettungsbootes im Wasser befinden, eine Gefahr ausgehen?
 □ A Bootsrumpf und Propeller

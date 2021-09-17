@@ -291,7 +291,8 @@ def print_quiz_statistic(questions: list[Question]) -> None:
         width = QUIZ_STATISIC_WIDTH * count // n
         spaces = QUIZ_STATISIC_WIDTH - width
         bar = width * "#" + spaces * " "
-        print(f"Level {level:3}: {count:4} / {n} |{bar}|")
+        rel = round(count * 100 / n)
+        print(f"Level {level:3}: {count:4} / {n} |{bar}| {rel:3} %")
 
     print(
         "Das Level bestimmt sich je Frage "

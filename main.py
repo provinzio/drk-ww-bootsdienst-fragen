@@ -60,13 +60,13 @@ class Question:
         if weight > 5:
             return 0
         return {
-            -1: 10,
-            0: 8,
-            1: 7,
-            2: 5,
-            3: 4,
-            4: 2,
-            5: 1,
+            -1: 11,
+            0: 10,
+            1: 11,
+            2: 8,
+            3: 7,
+            4: 5,
+            5: 3,
         }[weight]
 
     @property
@@ -239,7 +239,9 @@ def ask_question(question: Question) -> Optional[bool]:
     correct_answer_idx = shuffled_answer_idxs.index(0)
 
     for answer_idx, shuffled_answer_idx in zip(answer_idxs, shuffled_answer_idxs):
-        print(f"{answer_idx+1}. {question.answers[shuffled_answer_idx]}")
+        answer_text = question.answers[shuffled_answer_idx]
+        answer_text = answer_text.replace(" :: ", "\n   ")
+        print(f"{answer_idx+1}. {answer_text}")
 
     print("Antwort: 1-4, Beenden: q, ID ausgeben: i")
 

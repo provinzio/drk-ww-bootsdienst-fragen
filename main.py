@@ -313,11 +313,16 @@ if START_QUIZ:
                 correct_guess = s[1]
                 false_guess = s[2]
 
-                question = all_questions[identifier - 1]
-                assert isinstance(question, Question)
-                assert (
-                    question.identifier == identifier
-                ), f"Identifier nicht identisch {question.identifier} != {identifier}"
+                try:
+                    question = next(
+                        q for q in all_questions if identifier == q.identifier
+                    )
+                except StopIteration:
+                    print(
+                        f"Dein Speicherstand zur Frage {identifier} wurde verworfen, "
+                        "da die Frage durch die aktuellen Konstanten herausgefiltert wurde."
+                    )
+                    continue
                 question.correct_guess = correct_guess
                 question.false_guess = false_guess
         print("Dein Fortschritt wurde geladen...")

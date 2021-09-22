@@ -21,7 +21,7 @@ SAVE_QUESTIONS_FOR_SAILTRAINER = False
 
 # Quiz constants
 START_QUIZ = True
-QUIZ_STATISIC_WIDTH = 50
+QUIZ_STATISTIC_WIDTH = 50
 QUIZ_SAVE_FILE = "quiz_save.cfg"
 
 
@@ -311,8 +311,8 @@ def print_quiz_statistic(questions: list[Question]) -> None:
 
     for level in sorted(statistic):
         count = statistic[level]
-        width = QUIZ_STATISIC_WIDTH * count // n
-        spaces = QUIZ_STATISIC_WIDTH - width
+        width = QUIZ_STATISTIC_WIDTH * count // n
+        spaces = QUIZ_STATISTIC_WIDTH - width
         bar = width * "#" + spaces * " "
         rel = round(count * 100 / n)
         print(f"Level {level:3}: {count:4} / {n} |{bar}| {rel:3} %")

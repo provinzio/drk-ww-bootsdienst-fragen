@@ -12,6 +12,8 @@ import matplotlib.pyplot as plt
 
 # Filter constants
 IGNORE_REGIONAL = True
+IGNORE_BINNEN = False
+IGNORE_SEE = True
 
 # Output constants
 CREATE_RANDOMIZED_TXT = False
@@ -177,6 +179,12 @@ with open("data/20190127_DRK-WW_BD_Fragenkatalog.pdf.txt", "r", encoding="utf8")
 
 if IGNORE_REGIONAL:
     topics = {key: value for key, value in topics.items() if "Regional" not in key}
+
+if IGNORE_BINNEN:
+    del topics["Besonderheiten Binnen"]
+
+if IGNORE_SEE:
+    del topics["Besonderheiten See"]
 
 if SAVE_QUESTIONS_FOR_SAILTRAINER:
     with open("sailtrainer/drkwwfragen.xml", "w", encoding="utf8") as f:

@@ -126,6 +126,21 @@ with open("data/20190127_DRK-WW_BD_Fragenkatalog.pdf.txt", "r", encoding="utf8")
 
         # Prüfe, ob die Zeile ein neues Topic einleitet.
         if m := re.match(r"^\# \d+ (.*)$", line):
+            if question is not None:
+                # Es gab vorher schon eine Frage.
+                # Speichere die letzte Frage in der Fragenliste.
+                if answer_buffer:
+                    # Neue Frage, vorheriger Antwort speichern.
+                    question.addAnswer(" :: ".join(answer_buffer))
+                    # Antwort-Buffer leeren.
+                    answer_buffer = []
+                # Vorherige Frage speichern.
+                assert (
+                    len(question.answers) == 4
+                ), f"Es sind nicht genau vier Antwortmöglichkeiten: {question.question}"
+                questions.append(question)
+                topics[current_topic].append(question)
+                question = None
             current_topic = m.group(1)
             continue
 

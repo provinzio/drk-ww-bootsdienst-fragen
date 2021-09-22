@@ -156,14 +156,17 @@ BILD FEHLT
 4. Kontrolle
 5. Befehlsgebung
 28 (28) Wie wird die Lage im Einsatz unterteilt?
-□ A allgemeine Lage (Gewässer, Gelände, Wetter etc.) Gefahrenlage (Art des Unfalls, Auswirkungen etc.) eigene Lage (Einsatzmittel, Einsatzbereitschaft)
+□ A allgemeine Lage (Gewässer, Gelände, Wetter etc.)
+Gefahrenlage (Art des Unfalls, Auswirkungen etc.)
+eigene Lage (Einsatzmittel, Einsatzbereitschaft)
 □ B Ortslage (Gewässer, Gelände)
 Unfalllage (Art des Unfalls, Auswirkungen etc.)
 Einsatzpotentiallage (Einsatzmittel, Einsatzbereitschaft)
 □ C die allgemeine Lage (Gewässer, Gelände)
 Wetterlage (Temperatur, Niederschlag)
 Einsatzlage (Art des Unfalls, Auswirkungen etc.)
-□ D allgemeine Lage (Gewässer, Gelände, Wetter etc.) Schadstofflage (Auswirkungen des Schadensereignisses)
+□ D allgemeine Lage (Gewässer, Gelände, Wetter etc.)
+Schadstofflage (Auswirkungen des Schadensereignisses)
 Mannschaftslage (Einsatzbereitschaft, Gesundheitszustand)
 29 (29) Welche Informationen soll eine Lagemeldung enthalten?
 □ A Meldende Einheit Ort / Ereignis allgemeine Lage eigene Lage Nachforderung
@@ -803,7 +806,7 @@ Die Weisungen des Taucheinsatzleiters sind beim Befahren des Tauchgebietes für 
 □ B stehendes Gut: Wanten, Vorstag laufendes Gut: Segel, Flaggen
 □ C stehendes Gut: Mast, Baum laufendes Gut: Niederholer, Schot
 □ D stehendes Gut: Wanten, Poller laufendes Gut: Schot, Steven
-143 (6) Segelboote lasse nach ihrer Rumpfkonstruktion in welche Typen einteilen?
+143 (6) Segelboote lassen sich nach ihrer Rumpfkonstruktion in welche Typen einteilen?
 □ A Jolle, Kielschwertboot, Kielboot
 □ B Trimaran, Mehrrumpfboot, Kielknickspantboot
 □ C Knickspantboot, Rundkielboot, Knickkielboot

@@ -328,6 +328,7 @@ if START_QUIZ:
     all_questions = list(itertools.chain(*topics.values()))
 
     # Letzten Stand aus Speicherdatei einlesen.
+    ignored_save_point = []
     if os.path.isfile(QUIZ_SAVE_FILE):
         with open(QUIZ_SAVE_FILE, "rb") as fp:
             save_point = pickle.load(fp)
@@ -341,10 +342,11 @@ if START_QUIZ:
                         q for q in all_questions if identifier == q.identifier
                     )
                 except StopIteration:
-                    print(
-                        f"Dein Speicherstand zur Frage {identifier} wurde verworfen, "
-                        "da die Frage durch die aktuellen Konstanten herausgefiltert wurde."
-                    )
+                    # Die Frage, die zu dem Savepoint gehört, wurde durch
+                    # Filter ignoriert und hat hier keine Anwendung.
+                    # Speichere den Stand, um ihn dem neuen Speicherstand
+                    # wieder anzufügen.
+                    ignored_save_point.append(s)
                     continue
                 question.correct_guess = correct_guess
                 question.false_guess = false_guess
@@ -380,7 +382,9 @@ if START_QUIZ:
     print("\n\n")
 
     # Stand in Speicherdatei sichern.
-    save_point = [(q.identifier, q.correct_guess, q.false_guess) for q in all_questions]
+    save_point = [
+        (q.identifier, q.correct_guess, q.false_guess) for q in all_questions
+    ] + ignored_save_point
     with open(QUIZ_SAVE_FILE, "wb") as fp:
         pickle.dump(save_point, fp)
     print("Dein Fortschritt wurde gespeichert.")

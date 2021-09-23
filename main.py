@@ -61,14 +61,15 @@ class Question:
         weight = max(-1, self.correct_guess - self.false_guess)
         if weight > 5:
             return 0
+        if weight < 0:
+            return -weight * 15
         return {
-            -1: 15,
-            0: 10,
-            1: 12,
-            2: 8,
-            3: 7,
-            4: 5,
-            5: 3,
+            0: 12,
+            1: 11,
+            2: 5,
+            3: 3,
+            4: 2,
+            5: 1,
         }[weight]
 
     @property

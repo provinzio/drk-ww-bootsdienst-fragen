@@ -169,13 +169,21 @@ Einsatzlage (Art des Unfalls, Auswirkungen etc.)
 Schadstofflage (Auswirkungen des Schadensereignisses)
 Mannschaftslage (Einsatzbereitschaft, Gesundheitszustand)
 29 (29) Welche Informationen soll eine Lagemeldung enthalten?
-□ A Meldende Einheit Ort / Ereignis allgemeine Lage eigene Lage Nachforderung
-□ B Meldende Einheit Wetterlage
+□ A Meldende Einheit
+Ort / Ereignis
+allgemeine Lage
+eigene Lage
+Nachforderung
+□ B Meldende Einheit
+Wetterlage
 Verkehrslage
 Versorgungslage
 Nachforderung
 □ C Wetterbericht
-Ort / Ereignis allgemeine Lage eigene Lage Nachforderung
+Ort / Ereignis
+allgemeine Lage
+eigene Lage
+Nachforderung
 □ D Benachbarte Einheit letzte Versorgung Kommunikationsausfälle
 Verkehrslage
 Nachforderung
@@ -242,7 +250,7 @@ Sie sollen zudem bei Säuberung von Gewässern ihm Rahmen ihrer Möglichkeiten u
 □ C Der Tank ist am Ufer auf festem Untergrund und nur mit einem geschlossenen Pumpsystem zu befüllen. Ein Lappen ist nicht notwendiger Weise bereitzuhalten.
 □ D Der Tank ist im Boot zu befüllen, um die Einsatzbereitschaft nicht zu gefährden. Wenn nötig ist ein
 Schüttelschlauch bzw. geeigneter Trichter zu verwenden. Ein Lappen zur Aufnahme verschütteten Kraftstoffes ist bereitzuhalten.
-42 (10) Welche Reinigungsmitteln sind zur Pflege von Motorbooten und Motoren zu verwenden?
+42 (10) Welche Reinigungsmittel sind zur Pflege von Motorbooten und Motoren zu verwenden?
 □ A Es sind die vom Hersteller empfohlenen Reinigungsmittel zu verwenden. Diese sollten möglichst biologisch abbaubar sein.
 □ B Es sind ausschließlich nicht biologisch abbaubare Reinigungsmittel zu verwenden.
 □ C Es sind auf gar keinen Fall Reinigungsmittel zu verwenden.
@@ -633,7 +641,7 @@ Vorbereiten der Intubation
 - zuständige Rettungsleitstelle und Revierzentrale / Wasserschutzpolizei informieren und möglichst auf das Eintreffen der Polizeikräfte warten
 □ B - sofort Unfallhergang dokumentieren
 - zuständige Rettungsleitstelle und Revierzentrale / Wasserschutzpolizei informieren und möglichst auf das Eintreffen der Polizeikräfte warten
-- Sicherung der Unfallstelle;
+- Sicherung der Unfallstelle
 □ C - sofort Unfallhergang dokumentieren
 - Videos und Bilder ins Internet stellen
 - Status in den sozialen Netzwerken aktualisieren
@@ -700,7 +708,7 @@ Die Weisungen des Taucheinsatzleiters sind beim Befahren des Tauchgebietes für 
 □ B (Wasserschutz)Polizei alarmieren und danach den Leichnam in jedem Fall bergen und an Bord des Motorrettungsbootes holen.
 □ C Leichnam sichern, in den Hafen schleppen und dann die (Wasserschutz)Polizei informieren.
 □ D Das Suchen und Bergen Ertrunkener zählt nicht zu den Aufgaben der Wasserwacht.
-122 (15) Sie werden als Bootsführer mit ihrem Motorrettungsboot im Auftrage des Veranstalters zur Absicherung einer Wassersportveranstaltung eingesetzt. Unter welchen Umständen sind Sie den Teilnehmern dieser Veranstaltung gegenüber weisungsberechtigt?
+122 (15) Sie werden als Bootsführer mit ihrem Motorrettungsboot im Auftrag des Veranstalters zur Absicherung einer Wassersportveranstaltung eingesetzt. Unter welchen Umständen sind Sie den Teilnehmern dieser Veranstaltung gegenüber weisungsberechtigt?
 □ A Der Bootsführer eines Motorrettungsbootes ist gegenüber den Teilnehmern einer Wassersportveranstaltung nur dann weisungsberechtigt, wenn dies mit dem Veranstalter so vereinbart ist und es den Veranstaltungsteilnehmern bekannt gegeben wurde oder es sich um eine erkennbare Notlage handelt.
 □ B Der Bootsführer eines Motorrettungsbootes ist gegenüber den Teilnehmern einer Wassersportveranstaltung immer weisungsberechtigt.
 □ C Der Bootsführer eines Motorrettungsbootes ist gegenüber den Teilnehmern einer Wassersportveranstaltung ausschließlich in einer erkennbaren Notlage weisungsberechtigt.
@@ -1700,7 +1708,9 @@ Notbremsung) weder ihren Verstauort verlassen noch sonstigen Schaden anrichten. 
 - Lösen der Transportsicherungen
 - Herstellen der Betriebsbereitschaft
 - Anbordgehen der gesamten Besatzung
-□ D - Trennen der mechanischen Verbindung zum Zugfahrzeug- Abnehmen der Lichtleiste des Trailers- Lösen der Transportsicherungen
+□ D - Trennen der mechanischen Verbindung zum Zugfahrzeug
+- Abnehmen der Lichtleiste des Trailers
+- Lösen der Transportsicherungen
 - Herstellen der Betriebsbereitschaft
 - Herstellen der Einsatzbereitschaft
 292 (39) Wann ist das Windenseil beim Slippen frühestens zu lösen?
@@ -2038,7 +2048,7 @@ eine rot/weiße Flagge oder Tafel bzw. die entsprechenden Rundumlichter
 □ B Kleiner Wannsee, Stölpchensee, Pohlesee, Grimnitzsee
 □ C Kleiner Wannsee, Griebnitzsee, Pohlesee, Stößensee
 □ D Kleiner Wannsee, Stößensee, Pohlesee, Griebnitzsee
-351 (10) Wo gilt ein Nachfahrverbot zwischen 22 und 5Uhr?
+351 (10) Wo gilt ein Nachtfahrverbot zwischen 22 und 5Uhr?
 □ A Scharfe Lanke
 □ B Krumme Lanke
 □ C Klare Lanke

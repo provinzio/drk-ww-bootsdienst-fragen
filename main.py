@@ -25,11 +25,6 @@ QUIZ_STATISTIC_WIDTH = 50
 QUIZ_SAVE_FILE = "quiz_save.cfg"
 
 
-assert not (
-    SAVE_QUESTIONS_FOR_SAILTRAINER and (IGNORE_REGIONAL or IGNORE_BINNEN or IGNORE_SEE)
-), "SAVE_QUESTIONS_FOR_SAILTRAINER und IGNORE_REGIONAL können nicht gleichzeitig gesetzt sein."
-
-
 class Question:
     """Eine Question besteht aus einer Frage und einer Liste von Antworten.
 
@@ -193,14 +188,6 @@ with open("data/20190127_DRK-WW_BD_Fragenkatalog.pdf.txt", "r", encoding="utf8")
         assert answer_buffer, f"Es gibt noch keine Antwort zum Puffern. {line}"
         answer_buffer.append(line)
 
-if IGNORE_REGIONAL:
-    topics = {key: value for key, value in topics.items() if "Regional" not in key}
-
-if IGNORE_BINNEN:
-    del topics["Besonderheiten Binnen"]
-
-if IGNORE_SEE:
-    del topics["Besonderheiten See"]
 
 if SAVE_QUESTIONS_FOR_SAILTRAINER:
     with open("sailtrainer/drkwwfragen.xml", "w", encoding="utf8") as f:
@@ -235,6 +222,15 @@ if SAVE_QUESTIONS_FOR_SAILTRAINER:
 
             f.writelines(["</topic>\n"])
         f.writelines(["</questionaire>\n"])
+
+if IGNORE_REGIONAL:
+    topics = {key: value for key, value in topics.items() if "Regional" not in key}
+
+if IGNORE_BINNEN:
+    del topics["Besonderheiten Binnen"]
+
+if IGNORE_SEE:
+    del topics["Besonderheiten See"]
 
 if CREATE_RANDOMIZED_TXT:
     for i in range(5):

@@ -312,7 +312,13 @@ def print_quiz_statistic(questions: list[Question]) -> None:
         spaces = QUIZ_STATISTIC_WIDTH - width
         bar = width * "#" + spaces * " "
         rel = round(count * 100 / n)
-        print(f"Level {level:3}: {count:4} / {n} |{bar}| {rel:3} %")
+        if level == 0:
+            add = f"  - {round(sum(c for i, c in statistic.items() if i <= 0) * 100 / n)} %"
+        elif level == 1:
+            add = f"  - {round(sum(c for i, c in statistic.items() if i > 0) * 100 / n)} %"
+        else:
+            add = ""
+        print(f"Level {level:3}: {count:4} / {n} |{bar}| {rel:3} %{add}")
 
     print(
         "Das Level bestimmt sich je Frage "

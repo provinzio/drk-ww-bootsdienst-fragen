@@ -246,7 +246,7 @@
     <correct>Besatzung von Motorrettungsbooten können die zuständigen Behörden bei der Ahndung von Verstößen gegen den Gewässer- und Naturschutz unterstützen, indem sie solche Verstöße dokumentieren und die zuständige Führungskraft bzw. die zuständigen Behörden darüber informieren.</correct>
     <incorrect>Besatzung von Motorrettungsbooten können die zuständigen Behörden bei der Ahndung von Verstößen gegen den Gewässer- und Naturschutz unterstützen, indem sie Verursacher und Zeugen selbst Befragen und weitere Hintergründe selbst ermitteln.</incorrect>
     <incorrect>Besatzung von Motorrettungsbooten können die zuständigen Behörden bei der Ahndung von Verstößen gegen den Gewässer- und Naturschutz unterstützen, indem sie Verursacher selbst festsetzen.</incorrect>
-    <incorrect>Besatzung von Motorrettungsbooten können die zuständigen Behörden bei der Ahndung von Verstößen gegen den Gewässer- und Naturschutz unterstützen, indem sie Kraft- oder Wasserfahrzeuge der Verursacher unter allen Umständen verfolgen und Stoppen bzw. Aufbringen.</incorrect>
+    <incorrect>Besatzung von Motorrettungsbooten können die zuständigen Behörden bei der Ahndung von Verstößen gegen den Gewässer- und Naturschutz unterstützen, indem sie Kraft- oder Wasserfahrzeuge der Verursacher unter allen Umständen verfolgen und stoppen bzw. aufbringen.</incorrect>
   </question>
   <question id='3037' reference='36'>
     <text>Darf eine Bootsbesatzung bei einem Verstoß gegen den Gewässer- und Naturschutz unmittelbaren Zwang ausüben, z. B. einen vermutlichen Verursacher am Entfernen vom Tatort hindern?</text>
@@ -413,7 +413,7 @@
   </question>
   <question id='3061' reference='59'>
     <text>Warum sollte beim Ab- oder Freischleppen möglichst die Leine des Havarierten übernommen werden?</text>
-    <correct>Damit sofort, auch gegen den Willen des Havaristen, von diesem losgeworfen werden kann und ein erneutes Heranfahren an den Havaristen zur Übernahme des eigenen Materials ist nicht notwendig ist (z.B. bei schwerem Wetter).</correct>
+    <correct>Damit sofort, auch gegen den Willen des Havaristen, von diesem losgeworfen werden kann und ein erneutes Heranfahren an den Havaristen zur Übernahme des eigenen Materials ist nicht notwendig ist (z. B. bei schwerem Wetter).</correct>
     <incorrect>Bei der Leine des Havaristen handelt es sich immer um die optimale Leine für dessen Bootstyp und -größe. Damit geht von dieser Leine keinerlei Gefahr für den Bootsrumpf des Havaristen aus.</incorrect>
     <incorrect>Der Havarist ist dann nicht zur Leistung eines Bergegeldes verpflichtet.</incorrect>
     <incorrect>Bei einer eventuellen Beschädigung der Schleppleine wird die Leinen des Rettungsbootes nicht in Mitleidenschaft gezogen.</incorrect>
@@ -639,21 +639,21 @@
   </question>
   <question id='3094' reference='91'>
     <text>Worauf ist beim Anbordnehmen von Person aus dem Wasser über die Bordwand grundsätzlich zu achten?</text>
-    <correct>Es ist auf die Krängung des Bootes zu achten, da sie zum einen das Anbordnehmen erleichtern aber auch die Gefahr des Kenterns bergen kann.</correct>
-    <incorrect>Es ist auf die Trimmung des Motors zu achten, da sie zum einen das Anbordnehmen erleichtern aber auch die Gefahr des Kenterns bergen kann.</incorrect>
+    <correct>Es ist auf die Krängung des Bootes zu achten, da sie zum einen das Anbordnehmen erleichtern, aber auch die Gefahr des Kenterns bergen kann.</correct>
+    <incorrect>Es ist auf die Trimmung des Motors zu achten, da sie zum einen das Anbordnehmen erleichtern, aber auch die Gefahr des Kenterns bergen kann.</incorrect>
     <incorrect>Der Motor ist mittels Quickstop auszuschalten.</incorrect>
     <incorrect>Es ist auf nichts Spezielles zu achten.</incorrect>
   </question>
   <question id='3095' reference='92'>
     <text>Worauf muss beim Anbordnehmen einer unverletzten Person aus dem Wasser geachtet werden?</text>
-    <correct>Bei Booten mit hohem Freibord sollten entsprechende Hilfen eingesetzt werden (z.B. Jakobsleiter, Badeleiter) um das Anbordnehmen zu erleichtern.</correct>
+    <correct>Bei Booten mit hohem Freibord sollten entsprechende Hilfen eingesetzt werden (z. B. Jakobsleiter, Badeleiter) um das Anbordnehmen zu erleichtern.</correct>
     <incorrect>Eine Bugklappe ist für die Anbordnahme von unverletzten Personen ungeeignet. Es besteht die Gefahr, dass durch die Bugklappe Wasser ins Bootsinnere läuft.</incorrect>
     <incorrect>Der Motor sollte mittels Quickstop ausgeschaltet werden.</incorrect>
     <incorrect>Es ist nichts zu beachten, unverletzte Personen kommen stets ohne weiter Hilfe in das Motorrettungsboot.</incorrect>
   </question>
   <question id='3096' reference='93'>
     <text>Worauf muss beim Anbordnehmen einer bewusstlosen Person aus dem Wasser geachtet werden?</text>
-    <correct>Zur Rettung ins Boot sollten stets Hilfsmittel (z.B. Spineboard) verwandt werden, die eine horizontale Rettung bzw. eine schonende Crash-Rettung zulassen.</correct>
+    <correct>Zur Rettung ins Boot sollten stets Hilfsmittel (z. B. Spineboard) verwandt werden, die eine horizontale Rettung bzw. eine schonende Crash-Rettung zulassen.</correct>
     <incorrect>Eine Bugklappe ist für die Anbordnahme von bewusstlosen Personen ungeeignet. Es besteht die Gefahr, dass durch die Bugklappe Wasser ins Bootsinnere läuft.</incorrect>
     <incorrect>Der Motor sollte mittels Quickstop ausgeschaltet werden.</incorrect>
     <incorrect>Es ist nichts zu beachten, bewusstlose Personen kommen stets ohne weiter Hilfe in das Motorrettungsboot.</incorrect>
@@ -868,7 +868,7 @@
     <correct>In der Regel hat die DRK-Wasserwacht die Aufgabe Menschenrettung durchzuführen. Bei Veranstaltungen können nach Absprache mit dem Veranstalter weitere Aufgaben übernommen werden.</correct>
     <incorrect>Die DRK-Wasserwacht hat ausschließlich die Aufgabe Menschenrettung durchzuführen.</incorrect>
     <incorrect>Das Bergen von Booten gehört grundsätzlich auch immer zu den Aufgaben der DRK-Wasserwacht.</incorrect>
-    <incorrect>Das Bergen von Booten ist ausschließliche Aufgabe der Feuerwehr bzw. des THW. Anders geltende Absprachen für Veranstaltungen (z.B. Regatten) haben zu unterbleiben.</incorrect>
+    <incorrect>Das Bergen von Booten ist ausschließliche Aufgabe der Feuerwehr bzw. des THW. Anders geltende Absprachen für Veranstaltungen (z. B. Regatten) haben zu unterbleiben.</incorrect>
   </question>
   <question id='3128' reference='124'>
     <text>Ein Rettungsboot der Wasserwacht ist zur Regattaabsicherung eingesetzt. Während der Regatta kentert, eines der teilnehmenden Boote. Soll die Bootsbesatzung sofort eingreifen und bei der Bergung bzw. dem Aufrichten des gekenterten Bootes helfen?</text>
@@ -879,7 +879,7 @@
   </question>
   <question id='3129' reference='125'>
     <text>Wann muss eine Wasserwacht – Bootsbesatzung, auch während einer Regatta, sofort und ohne Aufforderung eingreifen?</text>
-    <correct>Wenn es sich um eine erkennbare Notlage handelt, aus der sich der Betroffene nicht selbst befreien kann (z.B. Verletzung, Bewusstlosigkeit o. a.).</correct>
+    <correct>Wenn es sich um eine erkennbare Notlage handelt, aus der sich der Betroffene nicht selbst befreien kann (z. B. Verletzung, Bewusstlosigkeit o. a.).</correct>
     <incorrect>Die Besatzung greift immer sofort und ohne Aufforderung ein, da immer von einer Notlage auszugehen ist.</incorrect>
     <incorrect>Eine Wasserwacht Bootsbesatzung greift bei Regatten niemals ohne Aufforderung ein, da dies sonst zu einer sofortigen Disqualifikation des betroffenen Bootes führt.</incorrect>
     <incorrect>Eine Wasserwacht Bootsbesatzung greift bei Regatten nur ein, wenn sie für jeden einzelnen Fall von der Rennleitung dazu beauftragt wird.</incorrect>
@@ -934,7 +934,7 @@
     <incorrect>Der Bootsführer muss darauf achten, dass er das Treibgut aufnimmt und die Bootsmannschaft Handschuhe trägt.</incorrect>
   </question>
   <question id='3137' reference='133'>
-    <text>Worauf muss ist zu achten, wenn sich ein Hubschrauber über einem Motorrettungsboot befindet?</text>
+    <text>Worauf ist zu achten, wenn sich ein Hubschrauber über einem Motorrettungsboot befindet?</text>
     <correct>Es ist auf den Abwind (Downwash) zu achten, da dieser eine erhebliche Abdrift des Bootes sowie Sichteinschränkungen verursachen kann und keine verbale Kommunikation mehr möglich ist.</correct>
     <incorrect>Es ist darauf zu achten, dass alle auf dem Boot befindlichen Personen Helme tragen.</incorrect>
     <incorrect>Es ist darauf zu achten, dass es von Seiten des Hubschraubers nicht zu einer elektrischen Entladung kommt. Dies ist durch die Erdung des Bootes zu erreichen.</incorrect>
@@ -1000,10 +1000,10 @@
   </question>
   <question id='3147' reference='142'>
     <text>Welches sind Beispiele für stehendes und laufendes Gut?</text>
-    <correct>stehendes Gut: Wanten, Vorstag laufendes Gut: Falle, Schoten</correct>
-    <incorrect>stehendes Gut: Wanten, Vorstag laufendes Gut: Segel, Flaggen</incorrect>
-    <incorrect>stehendes Gut: Mast, Baum laufendes Gut: Niederholer, Schot</incorrect>
-    <incorrect>stehendes Gut: Wanten, Poller laufendes Gut: Schot, Steven</incorrect>
+    <correct>stehendes Gut: Wanten, Vorstag; laufendes Gut: Falle, Schoten</correct>
+    <incorrect>stehendes Gut: Wanten, Vorstag; laufendes Gut: Segel, Flaggen</incorrect>
+    <incorrect>stehendes Gut: Mast, Baum; laufendes Gut: Niederholer, Schot</incorrect>
+    <incorrect>stehendes Gut: Wanten, Poller; laufendes Gut: Schot, Steven</incorrect>
   </question>
   <question id='3148' reference='143'>
     <text>Segelboote lassen sich nach ihrer Rumpfkonstruktion in welche Typen einteilen?</text>
@@ -1063,8 +1063,8 @@
   </question>
   <question id='3156' reference='151'>
     <text>Auf welcher Seite sollten Sie als Motorbootfahrer ein Segelboot (unter Segel) überholen und warum?</text>
-    <correct>Auf der Leeseite, da der Segler plötzlich, z.B. wegen einer Notsituation, in den Wind schießen könnte.</correct>
-    <incorrect>Auf der Luvseite, weil der Segler plötzlich wegen z.B. einer Notsituation in den Wind schießen könnte.</incorrect>
+    <correct>Auf der Leeseite, da der Segler plötzlich, z. B. wegen einer Notsituation, in den Wind schießen könnte.</correct>
+    <incorrect>Auf der Luvseite, weil der Segler plötzlich wegen z. B. einer Notsituation in den Wind schießen könnte.</incorrect>
     <incorrect>Auf der Leeseite, weil ich dem Segler sonst den Wind "nehme".</incorrect>
     <incorrect>Auf der Luvseite, weil ich dem Segler sonst den Wind "nehme".</incorrect>
   </question>
@@ -1192,9 +1192,9 @@
   <question id='3175' reference='169'>
     <text>Mittels welcher Hilfsmittel kann die Wassertiefe festgestellt werden?</text>
     <correct>Handlot, Echolot, Peilstange (z. B. Bootshaken, Paddel)</correct>
-    <incorrect>Handlot, Peilstange (z.B. Bootshaken, Paddel), Festmacher</incorrect>
+    <incorrect>Handlot, Peilstange (z. B. Bootshaken, Paddel), Festmacher</incorrect>
     <incorrect>Handlot, Echolot, Schleppleine</incorrect>
-    <incorrect>Echolot, Flaggenstock, Peilstange (z.B. Bootshaken, Paddel) Schleppleine</incorrect>
+    <incorrect>Echolot, Flaggenstock, Peilstange (z. B. Bootshaken, Paddel), Schleppleine</incorrect>
   </question>
   <question id='3176' reference='170'>
     <text>Wann wird die Wasserwacht – Dienstflagge (Bootsflagge) gesetzt?</text>
@@ -1405,7 +1405,7 @@
   </question>
   <question id='3207' reference='199'>
     <text>Was versteht man unter Kavitation und welche Schäden können durch sie hervorgerufen werden?</text>
-    <correct>Unter Kavitation versteht man die Bildung und das Implodieren von Dampfblasen in Flüssigkeiten durch schnell rotierende Objekte (z.B. Propeller). Kavitation kann zum Herausbrechen von Material aus der Propelleroberfläche, dem so genannten Kavitationsfraß, führen.</correct>
+    <correct>Unter Kavitation versteht man die Bildung und das Implodieren von Dampfblasen in Flüssigkeiten durch schnell rotierende Objekte (z. B. Propeller). Kavitation kann zum Herausbrechen von Material aus der Propelleroberfläche, dem so genannten Kavitationsfraß, führen.</correct>
     <incorrect>Unter Kavitation versteht man die Auflösung des Propellers und des Unterwasserteil durch elektrochemische Vorgänge während des Fahrbetriebes.</incorrect>
     <incorrect>Unter Kavitation versteht man das Korrodieren der Opferanode am Unterwasserteil.</incorrect>
     <incorrect>Unter Kavitation versteht man das Ausbrechen des Bootshecks bei steiler Kurvenfahrt.</incorrect>
@@ -1414,7 +1414,7 @@
     <text>Welche Ursachen können zur Kavitation führen?</text>
     <correct>Kavitation kann entstehen, wenn: :: - sich die Kavitationsplatte mehr als 5 cm über dem Bootsboden befindet :: - der Trimmwinkel nicht stimmt :: - Beschädigungen am Propeller oder Bootsboden bestehen</correct>
     <incorrect>Kavitation kann entstehen, wenn: :: - sich die Kavitationsplatte mehr als 5 cm unter dem Bootsboden befindet :: - der Trimmwinkel nicht stimmt :: - Beschädigungen am Propeller oder Bootsboden bestehen</incorrect>
-    <incorrect>Kavitation kann entstehen, wenn: :: - die Kavitationsplatte gegenüber dem Bootsboden mehr als 5 cm höher liegt - der Trimmwinkel nicht stimmt</incorrect>
+    <incorrect>Kavitation kann entstehen, wenn: :: - die Kavitationsplatte gegenüber dem Bootsboden mehr als 5 cm höher liegt :: - der Trimmwinkel nicht stimmt</incorrect>
     <incorrect>Kavitation kann entstehen, wenn: :: - sich die Kavitationsplatte auf Höhe des Bootsbodens befindet :: - die Opferanode „verbraucht“ ist :: - Beschädigungen am Propeller oder Bootsboden ausgebessert wurden</incorrect>
   </question>
   <question id='3209' reference='201'>
@@ -1700,7 +1700,7 @@
     <incorrect>Bei Reinigungsarbeiten ist auf nichts Besonderes zu achten.</incorrect>
   </question>
   <question id='3250' reference='241'>
-    <text>Was ist zu tun, um die Hände vor mechanischen Belastungen und Verletzungen, z.B. durch scharfe Kanten und Gegenstände oder schnell laufende Leinen, zu schützen?</text>
+    <text>Was ist zu tun, um die Hände vor mechanischen Belastungen und Verletzungen, z. B. durch scharfe Kanten und Gegenstände oder schnell laufende Leinen, zu schützen?</text>
     <correct>Es sind Schutzhandschuhe an Bord mitzuführen und im Bedarfsfall zu tragen, um Belastungen und Verletzungen der Hände zu vermeiden.</correct>
     <incorrect>Es sind Einmalhandschuhe an Bord mitzuführen und im Bedarfsfall zu tragen, um die Verletzungs- und Ansteckungsgefahr zu minimieren.</incorrect>
     <incorrect>Es müssen keine Schutzhandschuhe mitgeführt werden. Im Bedarfsfall können die Hände mit Dreiecktüchern aus dem mitgeführten Sanitätsmaterial geschützt werden.</incorrect>
@@ -1785,10 +1785,10 @@
   </question>
   <question id='3262' reference='253'>
     <text>Worin unterscheiden sich Rettungswesten und Schwimmhilfen?</text>
-    <correct>Rettungswesten sind Auftriebsmittel, die den Benutzer mit dem Gesicht über Wasser halten, ohne dass von ihm eine Aktivität erforderlich ist. :: Schwimmhilfen sind Auftriebsmittel, bei denen der Benutzer Schwimmbewegungen und andere Haltungsveränderungen vornehmen muss, um sein Gesicht über Wasser zu halten.</correct>
-    <incorrect>Schwimmhilfen sind Auftriebsmittel, die den Benutzer mit dem Gesicht über Wasser halten, ohne dass von ihm eine Aktivität erforderlich ist. :: Rettungswesten sind Auftriebsmittel, bei denen der Benutzer Schwimmbewegungen und andere Haltungsveränderungen vornehmen muss, um sein Gesicht über Wasser zu halten.</incorrect>
+    <correct>Rettungswesten sind Auftriebsmittel, die den Benutzer mit dem Gesicht über Wasser halten, ohne dass von ihm eine Aktivität erforderlich ist. Schwimmhilfen sind Auftriebsmittel, bei denen der Benutzer Schwimmbewegungen und andere Haltungsveränderungen vornehmen muss, um sein Gesicht über Wasser zu halten.</correct>
+    <incorrect>Schwimmhilfen sind Auftriebsmittel, die den Benutzer mit dem Gesicht über Wasser halten, ohne dass von ihm eine Aktivität erforderlich ist. Rettungswesten sind Auftriebsmittel, bei denen der Benutzer Schwimmbewegungen und andere Haltungsveränderungen vornehmen muss, um sein Gesicht über Wasser zu halten.</incorrect>
     <incorrect>Sowohl Rettungswesten als auch Schwimmhilfen sind Auftriebsmittel, die den Benutzer, die den Benutzer mit dem Gesicht über Wasser halten, ohne dass von ihm eine Aktivität erforderlich ist. Ein Unterschied zwischen Rettungswesten und Schwimmhilfen besteht ausschließlich in der Größe der Auftriebskraft.</incorrect>
-    <incorrect>Sowohl Rettungswesten als auch Schwimmhilfen sind Auftriebsmittel, bei denen der Benutzer :: Schwimmbewegungen und andere Haltungsveränderungen vornehmen muss, um sein Gesicht über Wasser zu halten. Ein Unterschied zwischen Rettungswesten und Schwimmhilfen besteht ausschließlich in der Größe der Auftriebskraft.</incorrect>
+    <incorrect>Sowohl Rettungswesten als auch Schwimmhilfen sind Auftriebsmittel, bei denen der Benutzer Schwimmbewegungen und andere Haltungsveränderungen vornehmen muss, um sein Gesicht über Wasser zu halten. Ein Unterschied zwischen Rettungswesten und Schwimmhilfen besteht ausschließlich in der Größe der Auftriebskraft.</incorrect>
   </question>
 </topic>
 <topic id='3263' name='Bootstransport'>
@@ -1891,7 +1891,7 @@
     <incorrect>Die zulässige Gesamtmasse eines Bootsanhängers muss die zulässige Gesamtmasse des Zugfahrzeuges übersteigen.</incorrect>
   </question>
   <question id='3278' reference='268'>
-    <text>Mit welcher Höchstgeschwindigkeit dürfen für eine Höchstgeschwindigkeit von 100km/h zugelassenen Trailer auf deutschen Autobahnen oder Kraftstraßen gefahren werden, wenn nicht mehr alle Kriterien für die 100km/h-Zulassung erfüllt sind?</text>
+    <text>Mit welcher Höchstgeschwindigkeit dürfen für eine Höchstgeschwindigkeit von 100km/h zugelassene Trailer auf deutschen Autobahnen oder Kraftstraßen gefahren werden, wenn nicht mehr alle Kriterien für die 100km/h-Zulassung erfüllt sind?</text>
     <correct>Mit einer zulässigen Höchstgeschwindigkeit von 80 km/h.</correct>
     <incorrect>Mit der in der Zulassung des Trailers vermerkten zulässigen Höchstgeschwindigkeit.</incorrect>
     <incorrect>Mit einer zulässigen Höchstgeschwindigkeit von 100 km/h.</incorrect>
@@ -1913,8 +1913,8 @@
   </question>
   <question id='3281' reference='271'>
     <text>Wie sind im Boot mitgeführte Ausrüstungsgegenstände beim Straßentransport zu sichern?</text>
-    <correct>Ausrüstungsgegenstände sind so zu verstauen und zu sichern, dass sie auch in Extremsituationen (z.B. :: Notbremsung) weder ihren Verstauort verlassen noch sonstigen Schaden anrichten. Verschlüsse und Halterungen sind gegen unbeabsichtigtes Öffnen zu sichern.</correct>
-    <incorrect>Ausrüstungsgegenstände sind so zu verstauen und zu sichern, dass sie auch in Extremsituationen (z.B. Notbremsung) weder ihren Verstauort verlassen noch sonstigen Schaden anrichten.</incorrect>
+    <correct>Ausrüstungsgegenstände sind so zu verstauen und zu sichern, dass sie auch in Extremsituationen (z. B. Notbremsung) weder ihren Verstauort verlassen noch sonstigen Schaden anrichten. Verschlüsse und Halterungen sind gegen unbeabsichtigtes Öffnen zu sichern.</correct>
+    <incorrect>Ausrüstungsgegenstände sind so zu verstauen und zu sichern, dass sie auch in Extremsituationen (z. B. Notbremsung) weder ihren Verstauort verlassen noch sonstigen Schaden anrichten.</incorrect>
     <incorrect>Ausrüstungsgegenstände können in jedweder Art im Boot transportiert werden. Besondere Sicherungsmaßnahmen sind nicht notwendig.</incorrect>
     <incorrect>Ausrüstungsgegenstände dürfen nicht im Boot transportiert werden. Sie sind während des Straßentransports im Fahrzeug zu verstauen.</incorrect>
   </question>
@@ -1947,7 +1947,7 @@
     <incorrect>Die Lichtleiste muss nicht extra gesichert werden.</incorrect>
   </question>
   <question id='3286' reference='276'>
-    <text>Wie ist mit Zurrmitteln (z.B. Spanngurten) zu verfahren, die ihre Ablegereife erreicht haben?</text>
+    <text>Wie ist mit Zurrmitteln (z. B. Spanngurten) zu verfahren, die ihre Ablegereife erreicht haben?</text>
     <correct>Ablegereife Zurrmittel dürfen nicht mehr verwendet werden und sind umgehend auszusondern.</correct>
     <incorrect>Ablegereife Zurrmittel sind bei Gelegenheit zu ersetzen und können bis dahin weiter verwendet werden.</incorrect>
     <incorrect>Ablegereife Zurrmittel sind bei Gelegenheit zu reparieren und können bis dahin weiter verwendet werden.</incorrect>

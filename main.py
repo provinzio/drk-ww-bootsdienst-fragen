@@ -48,8 +48,17 @@ class Question:
         self.answers: list[str] = []
 
         # Variablen, die für das Quiz verwendet werden.
-        self.correct_guess = 0
-        self.false_guess = 0
+        # Speichere die Reihenfolge der Entscheidungen.
+        # true: richtig, false: falsch
+        self.correct_guessed: list[bool] = []
+
+    @property
+    def correct_guess(self) -> int:
+        return sum(self.correct_guessed)
+
+    @property
+    def false_guess(self) -> int:
+        return len(self.correct_guessed) - self.correct_guess
 
     @property
     def weight(self) -> int:
@@ -337,8 +346,6 @@ if START_QUIZ:
             save_point = pickle.load(fp)
             for s in save_point:
                 identifier = s[0]
-                correct_guess = s[1]
-                false_guess = s[2]
 
                 try:
                     question = next(
@@ -351,8 +358,20 @@ if START_QUIZ:
                     # wieder anzufügen.
                     ignored_save_point.append(s)
                     continue
-                question.correct_guess = correct_guess
-                question.false_guess = false_guess
+
+                # Neues Format, indem die Reihenfolge der Entscheidungen
+                # gemerkt wird.
+                if len(s) == 2:
+                    _, question.correct_guessed = s
+
+                # Altes Format, indem nur die Zahlen der richtigen und falschen
+                # Entscheidungen gemerkt wurde.
+                elif len(s) == 3:
+                    _, correct_guess, false_guess = s
+                    question.correct_guessed = correct_guess * [True] + false_guess * [
+                        False
+                    ]
+
         print("Dein Fortschritt wurde geladen...")
         print_quiz_statistic(all_questions)
 
@@ -371,12 +390,10 @@ if START_QUIZ:
 
         guess = ask_question(question)
 
-        if guess is True:
-            question.correct_guess += 1
-        elif guess is False:
-            question.false_guess += 1
-        elif guess is None:
+        if guess is None:
             break
+        elif isinstance(guess, bool):
+            question.correct_guessed.append(guess)
         else:
             raise NotImplementedError
 
@@ -386,8 +403,9 @@ if START_QUIZ:
 
     # Stand in Speicherdatei sichern.
     save_point = [
-        (q.identifier, q.correct_guess, q.false_guess) for q in all_questions
+        (q.identifier, q.correct_guessed) for q in all_questions
     ] + ignored_save_point
+
     with open(QUIZ_SAVE_FILE, "wb") as fp:
         pickle.dump(save_point, fp)
     print("Dein Fortschritt wurde gespeichert.")

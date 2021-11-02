@@ -18,6 +18,7 @@ IGNORE_SEE = True
 # Output constants
 CREATE_RANDOMIZED_TXT = False
 SAVE_QUESTIONS_FOR_SAILTRAINER = True
+CREATE_XLSX = True
 
 # Quiz constants
 START_QUIZ = True
@@ -232,6 +233,31 @@ if SAVE_QUESTIONS_FOR_SAILTRAINER:
             f.writelines(["</topic>\n"])
         f.writelines(["</questionaire>\n"])
 
+if CREATE_XLSX:
+    import xlsxwriter
+
+    workbook = xlsxwriter.Workbook('questions.xlsx')
+
+    for i, (topic, questions) in enumerate(topics.items(), 1):
+        worksheet = workbook.add_worksheet(f"{i:02} {topic}")
+
+        worksheet.write(0, 0, "#")
+        worksheet.write(0, 1, "Frage")
+        worksheet.write(0, 3, "Antwort A")
+        worksheet.write(0, 4, "Antwort B")
+        worksheet.write(0, 5, "Antwort C")
+        worksheet.write(0, 6, "Antwort D")
+
+        for row, question in enumerate(questions, 2):
+            worksheet.write(row, 0, question.no)
+            worksheet.write(row, 1, question.question)
+            worksheet.write(row, 3, question.answers[0])
+            worksheet.write(row, 4, question.answers[1])
+            worksheet.write(row, 5, question.answers[2])
+            worksheet.write(row, 6, question.answers[3])
+
+    workbook.close()
+    
 if IGNORE_REGIONAL:
     topics = {key: value for key, value in topics.items() if "Regional" not in key}
 
